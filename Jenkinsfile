@@ -1,5 +1,7 @@
 @Library("Jenkins-shared-library@main") _
 
+import jenkins.Output;
+
 pipeline{
     agent any
     stages{
